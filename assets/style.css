@@ -1,0 +1,82 @@
+/* reset geral */
+
+* {
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    background: url("../images/dragon-ball-super-beerus.gif") no-repeat center;
+    background-size: cover;
+
+
+    justify-content: center;
+}
+
+.fundo h1{
+    color: rgb(0, 26, 255);
+    position: absolute;
+    top: 5%;
+    font-size: 2.5rem;
+    text-shadow: 3px 3px rgb(238, 255, 0);
+}
+
+.calculadora {
+    background: #0026ff46;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 3px 3px #000;
+}
+
+.calculadora h2{
+    color: #66ff00;
+    text-align: center;
+}
+
+#resultado{
+    background-color: white;
+    color:black ;
+    height: 2rem;
+    width: 14rem;
+    text-align: right;
+    padding: .2rem .5rem;
+    font-size: 1.51rem;
+    border-radius: 5px;
+    margin: 1rem auto 1rem;
+    overflow: hidden;
+}
+
+button {
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: .1rem;
+    box-shadow: 3px 3px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 3px 3px #000;
+}
+
+button:hover{
+    background-color: red;
+    color: rgb(43, 255, 0);
+}
+
+td[rowspan="2"] button{
+    height: 6.75rem;
+    color: rgb(38, 0, 255);
+}
+
+td[colspan="2"] button{
+    width: 6.75rem;
+}
+
+
